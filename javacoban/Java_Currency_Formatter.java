@@ -19,7 +19,7 @@ public class Java_Currency_Formatter {
 	            .getCurrencyInstance(Locale.US)
 	            .format(payment);
 	    String india= NumberFormat
-	            .getCurrencyInstance(new Locale("en", "IN"))
+	            .getCurrencyInstance(new Locale("en", "in"))
 	            .format(payment);        
 
 	    String china= NumberFormat
